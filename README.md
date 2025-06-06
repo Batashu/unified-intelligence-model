@@ -15,7 +15,17 @@ Gupta, Tuhin. “The Unified Intelligence Model: A Trait-coherent, Valence-guide
 ## Components
 - `/manuscript/`: Full PDF [The Unified Intelligence Model_A Trait-Coherent, Valence-Guided Architecture for Safe Recursive AGI.pdf](https://github.com/user-attachments/files/20634314/The.Unified.Intelligence.Model_A.Trait-Coherent.Valence-Guided.Architecture.for.Safe.Recursive.AGI.pdf)
 
-- `/code/`: Simulation logic and pseudocode[Uploading trait_graph.import numpy as np
+- `/code/`: Simulation logic and pseudocode
+- These files implement core components of the Unified Intelligence Model (Appendix AK):
+
+| Module            | Description                                                              |
+|-------------------|--------------------------------------------------------------------------|
+| `trait_graph.py`       | Identity modeling and trait stability tracking     |
+| `rvm.py`               | Recursive Validation Mode (RVM): contradiction detection and alignment  |
+| `emotion_net.py`       | Valence-weighted coherence pressure module                         |
+| `oversight_node.py`    | Oversight and HITL trigger logic     
+
+[Uploading trait_graph.import numpy as np
 from collections import defaultdict
 
 class TraitGraph:
